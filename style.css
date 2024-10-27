@@ -1,0 +1,1162 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    background: linear-gradient(270deg, #C548AB -3.4%, #635BFF 101.08%);
+    height:100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img[alt=oval]{
+    position: absolute;
+    top: 1.4vh;
+    left: 1.5vw;
+    
+}
+
+.logo{
+    position: relative;
+    top: 1.6vh;
+}
+
+.flogo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 2vw;
+}
+
+.flogo h2{
+    position: relative;
+    right: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    top: 1vh;
+}
+
+.flogo img{
+    position: relative;
+    left: 1vw;
+}
+
+h1{
+    position: absolute;
+    top: 3vh;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+h4{
+    position: absolute;
+    top: 16vh;
+    font-size: 4rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+main{
+    background: radial-gradient(123.22% 129.67% at 100.89% -5.6%, #201D47 0%, #17153A 100%);
+    width: 73vw;
+    height: 82vh;
+    position: absolute;
+    left: 13.3vw;
+    top: 26vh;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main h2{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+ul{
+    position: relative;
+    color: #6F6C99;
+    list-style-type: none;
+    background: linear-gradient(180deg, rgba(38, 34, 80, 0.65) 0%, rgba(27, 25, 66, 0.85) 57.44%, #17163B 100%);
+    width: 13vw;
+    height: 76vh;
+    margin: 0;
+    border-radius: 20px 0px 0px 0px;
+    
+}
+
+li[class=logo]{
+    list-style-type: none;
+    position: absolute;
+    top: 6vh;
+    left: 6vw;
+    font-size: 5rem;
+    
+}
+
+li img{
+    position: absolute;
+    right: 5vw;
+    top: -0.2vh;
+    cursor: pointer;
+    width: 5vw;
+}
+
+nav{
+    position: absolute;
+    top: 9vh;
+    color: #5B5A99;
+    left: 6vw;
+    
+}
+
+
+.dashboard{
+    position: absolute;
+    top: 18vh;
+    font-size: 1.1rem;
+    
+}
+
+.dashboard::before{
+    content: url('./images/Active\ State\ Mark.png');
+    position: absolute;
+    left: -6vw;
+    top: -0.6vh;
+    opacity: 0;
+    transition: 0.6s;
+    transition-delay: 0.2s;
+}
+
+.dashboard:hover::before{
+    content: url('./images/Active\ State\ Mark.png');
+    position: absolute;
+    left: -6vw;
+    top: -0.6vh;
+    opacity: 1;
+}
+
+.dashboard+img{
+    position: absolute;
+    top: 18.5vh;
+    left: -2.5vw;
+}
+
+.dashboard,img{
+    transition: 0.6s;
+    transition-delay: 0.1s;
+}
+
+.dashboard:hover,.dashboard+img:hover{
+    color: #53B9EA;
+    cursor: pointer;
+}
+
+.wallet{
+    position: absolute;
+    top: 25vh;
+    font-size: 1.1rem;
+}
+
+.wallet::before{
+    content: url('./images/Active\ State\ Mark.png');
+    position: absolute;
+    left: -6vw;
+    top: -0.6vh;
+    opacity: 0;
+    transition: 0.6s;
+    transition-delay: 0.2s;
+}
+
+.wallet:hover::before{
+    content: url('./images/Active\ State\ Mark.png');
+    position: absolute;
+    left: -6vw;
+    top: -0.6vh;
+    opacity: 1;
+}
+
+.wallet+img{
+    position: absolute;
+    top: 25.5vh;
+    left: -2.5vw;
+}
+
+.wallet,img{
+    transition: 0.6s;
+    transition-delay: 0.1s;
+}
+
+
+.wallet:hover,.wallet+img:hover{
+    color: #53B9EA;
+    cursor: pointer;
+}
+
+
+.Messages{
+    position: absolute;
+    top: 32vh;
+    font-size: 1.1rem;
+}
+
+.Messages::before{
+    content: url('./images/Active\ State\ Mark.png');
+    position: absolute;
+    left: -6vw;
+    top: -0.6vh;
+    opacity: 0;
+    transition: 0.6s;
+    transition-delay: 0.2s;
+}
+
+.Messages:hover::before{
+    content: url('./images/Active\ State\ Mark.png');
+    position: absolute;
+    left: -6vw;
+    top: -0.6vh;
+    opacity: 1;
+}
+
+.Messages:after{
+    content: url('./images/Notife\ Mark.png');
+    position: absolute;
+    left: 7vw;
+}
+
+.Messages+img{
+    position: absolute;
+    top: 32vh;
+    left: -2.5vw;
+}
+
+.Messages,img{
+    transition: 0.6s;
+    transition-delay: 0.1s;
+}
+
+
+.Messages:hover,.Messages+img:hover{
+    color: #53B9EA;
+    cursor: pointer;
+}
+
+.trade{
+    position: absolute;
+    top: 39vh;
+    font-size: 1.1rem;
+}
+
+.trade::before{
+    content: url('./images/Active\ State\ Mark.png');
+    position: absolute;
+    left: -6vw;
+    top: -0.6vh;
+    opacity: 0;
+    transition: 0.6s;
+    transition-delay: 0.2s;
+}
+
+.trade:hover::before{
+    content: url('./images/Active\ State\ Mark.png');
+    position: absolute;
+    left: -6vw;
+    top: -0.6vh;
+    opacity: 1;
+}
+
+.trade+img{
+    position: absolute;
+    top: 39.5vh;
+    left: -2.5vw;
+}
+
+.trade,img{
+    transition: 0.6s;
+    transition-delay: 0.1s;
+}
+
+
+.trade:hover,.trade+img:hover{
+    color: #53B9EA;
+    cursor: pointer;
+}
+
+
+nav img{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.card1{
+    background: linear-gradient(247.99deg, rgba(52, 49, 102, 0.49) 0%, rgba(41, 39, 84, 0.78) 48.89%, rgba(27, 25, 67, 0.71) 98.46%);
+    width: 20vw;
+    height: 26vh;
+    position: absolute;
+    top: 53vh;
+    right: 60vw;
+    border-radius: 11px;
+    backdrop-filter: blur(19.53114891052246px);
+    box-shadow: 20.72px 36.99px 66.59px 0px #17122B73;
+}
+
+.card1 img{
+    position: absolute;
+    left: 8vw;
+    top: 1.5vh;
+    scale: 1.2;
+}
+
+.card1 p{
+    color: #6F6C99;
+    position: relative;
+    top: 10vh;
+    left: 4vw;
+}
+
+.card1 h3{
+    font-size: 1rem;
+    color: #70B2FF;
+    position: relative;
+    top: 10vh;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card1 button{
+    border: none;
+    position: relative;
+    top: 10vh;
+    left: 7.3vw;
+    align-items: center;
+    background-color: #343261;
+    color: #9796CF;
+    font-size: 1rem;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.card1 button:hover {
+    background-color: #9796CF;
+    color: #343261;
+    cursor: pointer;
+}
+
+.header h1{
+    position: absolute;
+    left: 18vw;
+    top: 2vh;
+    font-size: 2rem;
+}
+
+.header h4{
+    position: absolute;
+    left: 18vw;
+    top: 6vh;
+    color: #5B5A99;
+}
+
+.header h3{
+    position: absolute;
+    left: 18vw;
+    top: 11vh;
+    color: #5B5A99;
+    font-weight: 400;
+    color: #B1AFCD;
+    font-size: 1rem;
+}
+
+.crypto{
+    position: absolute;
+    top: -3vh;
+}
+
+.navbar{
+    position: absolute;
+    display: flex;
+    flex-flow: row;
+    height: 4vh;
+    top: 4vh;
+    right: 9vw;
+    cursor: pointer;
+    scale: 0.9;
+}
+
+.navbar img:nth-child(1){
+    margin: 0vh 1vw 0vh 0vw;
+}
+
+.navbar img:nth-child(2){
+    margin: 0vh 1vw 0vh 0.6vw;
+}
+
+.navbar img:nth-child(3){
+    position: relative;
+    top: 0.5vh;
+    margin: 0vh 1vw 0vh 1vw;
+    scale: 2.8;
+    
+}
+
+.navbar img:nth-child(4){
+    margin: 0vh 1vw 0vh 0.7vw;
+}
+
+.navbarp p{
+    position: absolute;
+    top: 3.3vh;
+    right: 2.5vw;
+    color: #5B5A99;
+    font-weight: 500;
+}
+
+.navbarp i{
+    position: relative;
+    left: 0.4vw;
+    
+}
+
+
+.notif{
+
+    scale: 2.4;
+}
+
+.crypto{
+    display: flex;
+    flex-flow: row;
+}
+
+.navbar p{
+    color: #5B5A99;
+    position: relative;
+    top: 1vh;
+}
+
+.bitcoin{
+    position: absolute;
+    left: 18vw;
+    top: 21vh;
+    width: 10vw;
+    height: 8.5vh;
+    border-radius: 10px;
+    background-color: transparent;
+    border:  0.91px solid #312F62;
+    transition: 0.4s;
+}
+
+.bitcoin:hover{
+    background-image: linear-gradient(135deg, #40DDFF 0%, #14BAE3 19.24%, #13B1E6 68.64%, #11AADF 81.77%, #0B98C5 100%); 
+    cursor: pointer;
+}
+
+.bitcoinimg img:nth-child(1){
+    position: absolute;
+    top: 3vh;
+    left: 1vw;
+    scale: 1.3;
+}
+
+.bitcoinimg img:nth-child(2){
+    position: absolute;
+    top: 5vh;
+    left: 3.5vw;
+    
+}
+
+.bitcoinimg  img:nth-child(3){
+    position: absolute;
+    top: 5.4vh;
+    left: 6vw;
+    scale: 1.4;
+    
+}
+
+.bitcoin p:nth-child(1){
+    position: absolute;
+    top: 3.8vh;
+    left: 7vw; 
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+}
+
+.bitcoinp p:nth-child(1){
+    position: absolute;
+    top: 3.8vh;
+    left: 7vw; 
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+}
+
+.bitcoinp p:nth-child(2){
+    position: absolute;
+    bottom: 3.5vh;
+    left: 4vw; 
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.bitcoinp p:nth-child(3){
+    position: absolute;
+    bottom: 3.8vh;
+    left: 7.7vw; 
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #ffffff88;
+}
+
+.ethereum{
+    position: absolute;
+    left: 29vw;
+    top: 21vh;
+    width: 10vw;
+    height: 8.5vh;
+    border-radius: 10px;
+    background-color: transparent;
+    border:  0.91px solid #312F62;
+    transition: background 0.4s;
+}
+
+.ethereum:hover{
+    background: linear-gradient(135deg, #ff4079 8.34%, #d82350 95.26%);
+    cursor: pointer;
+}
+
+.ethereumimg i{
+    position: absolute;
+    top: 3.3vh;
+    left: 1vw;
+    scale: 1.3;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.ethereumimg img:nth-child(2){
+    position: absolute;
+    top: 4vh;
+    left: 3.5vw;
+    
+}
+
+.ethereumimg  img:nth-child(3){
+    position: absolute;
+    top: 5.4vh;
+    left: 6vw;
+    scale: 1.4;
+    
+}
+
+.ethereum p:nth-child(1){
+    position: absolute;
+    top: 3.8vh;
+    left: 7vw; 
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+}
+
+.ethereump p:nth-child(1){
+    position: absolute;
+    top: 3.8vh;
+    left: 7vw; 
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #ff4079;
+}
+
+.ethereump p:nth-child(2){
+    position: absolute;
+    bottom: 3.5vh;
+    left: 4vw; 
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.ethereump p:nth-child(3){
+    position: absolute;
+    bottom: 3.8vh;
+    left: 7.7vw; 
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #ffffff88;
+}
+
+.Litecoin{
+    position: absolute;
+    left: 40vw;
+    top: 21vh;
+    width: 10vw;
+    height: 8.5vh;
+    border-radius: 10px;
+    background-color: transparent;
+    border:  0.91px solid #312F62;
+    transition: background 0.4s;
+}
+
+.Litecoin:hover{
+    background: linear-gradient(135deg, #40ffa6 8.34%, #23d86e 95.26%);
+    cursor: pointer;
+}
+
+.Litecoinimg img:nth-child(1){
+    position: absolute;
+    top: 3.3vh;
+    left: 1vw;
+    scale: 1.3;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.Litecoinimg img:nth-child(2){
+    position: absolute;
+    top: 3vh;
+    left: 3.2vw;
+    
+}
+
+.Litecoinimg  img:nth-child(3){
+    position: absolute;
+    top: 5.4vh;
+    left: 5.6vw;
+    scale: 1.4;
+    
+}
+
+.Litecoin p:nth-child(1){
+    position: absolute;
+    top: 3.8vh;
+    left: 6.4vw; 
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #50E3C2;
+}
+
+
+.Litecoinp p:nth-child(2){
+    position: absolute;
+    bottom: 3.5vh;
+    left: 4vw; 
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.Litecoinp p:nth-child(3){
+    position: absolute;
+    bottom: 3.8vh;
+    left: 7.7vw; 
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #ffffff88;
+}
+
+.cryptname{
+    position: absolute;
+    top: 32vh;
+    left: 22vw;
+    display: flex;
+    flex-flow: row;
+    color: #59588D;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.cryptname p{
+    margin: 0vh 1vw 0vh 1vw;
+}
+
+.cryptname img{
+    position: relative;
+    right: 0.6vw;
+    bottom: 0.1vh;
+}
+
+.gridbase{
+    position: absolute;
+    top: 33vh;
+    left: 22vw;
+}
+
+.vertline {
+    position: absolute;
+    top: 31vh;
+    left: 18vw;
+    display: flex;
+    flex-flow: column;
+    color: #59588D;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1vh;
+}
+
+.horline{
+    position: absolute;
+    top: 73vh;
+    left: 21vw;
+    display: flex;
+    flex-flow: row;
+    color: #59588D;
+    font-weight: 500;
+    font-size: 0.8rem;
+    
+}
+
+.horline p{
+    margin: 0vh 0.9vw 0vh 0.9vw;
+}
+
+.lines img:nth-child(1){
+    position: absolute;
+    top: 45vh;
+    left: 20vw;
+}
+
+.lines img:nth-child(2){
+    position: absolute;
+    top: 45vh;
+    left: 21vw;
+}
+
+.lines img:nth-child(3){
+    position: absolute;
+    top: 47vh;
+    left: 21vw;
+}
+
+.lines img:nth-child(4){
+    position: absolute;
+    top: 43vh;
+    left: 21vw;
+}
+
+.blurrcontainer{
+    position: absolute;
+    top: 24vh;
+    left: 39vw;
+    
+}
+
+.card2{
+    position: absolute;
+    right: -3vw;
+    top: 10vh;
+    width: 23vw;
+    height: 60vh;
+    background: linear-gradient(210.96deg, rgba(36, 33, 81, 0.74) 0.01%, rgba(38, 35, 83, 0.78) 42.05%, rgba(47, 45, 97, 0.51) 104.81%);
+    backdrop-filter: blur(20.352563858032227px);
+    box-shadow: -23.61px 48.85px 73.27px 0px #17122B8C;
+    border-radius: 10px;
+
+}
+
+.card2 h1{
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #B1AFCD;
+}
+
+.clifford{
+    position: absolute;
+    top: 8vh;
+    height: 11vh;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.clifford:hover{
+    background-color: rgb(29, 26, 65);
+    cursor: pointer;
+}
+
+.clifford h1{
+    position: absolute;
+    left: 4vw;
+    top: -1vh;
+    font-size: 1rem;
+    color: #8786AB;
+    font-weight: 500;
+}
+
+.clifford img{
+    position: absolute;
+    left: 1vw;
+    top: 0.5vh;
+    scale: 1.2;
+}
+
+.clifford p{
+    position: absolute;
+    top: -0.8vh;
+    left: 9.5vw;
+    font-size: 0.8rem;
+    color: #75749C;
+}
+
+.clifford h2{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 2vh;
+    left: 4vw;
+    font-weight: 400;
+    color: #59588D;
+}
+
+.clifford h3{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 4vh;
+    left: 4vw;
+    font-weight: 400;
+    color: #59588D;
+}
+
+.lottie{
+    position: absolute;
+    top: 19vh;
+    height: 13vh;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.lottie:hover{
+    background-color: rgb(29, 26, 65);
+    cursor: pointer;
+}
+
+.lottie h1{
+    position: absolute;
+    left: 4vw;
+    top: -1vh;
+    font-size: 1rem;
+    color: #8786AB;
+    font-weight: 500;
+}
+
+.lottie img{
+    position: absolute;
+    left: 1vw;
+    top: 0.5vh;
+    scale: 1.2;
+}
+
+.lottie p{
+    position: absolute;
+    top: -0.8vh;
+    left: 9.5vw;
+    font-size: 0.8rem;
+    color: #75749C;
+}
+
+.lottie h2{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 2vh;
+    left: 4vw;
+    font-weight: 400;
+    color: #59588D;
+}
+
+.lottie h4{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 4vh;
+    left: 4vw;
+    font-weight: 400;
+    color: #50E3C2;
+}
+
+.lottie h5{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 3.5vh;
+    left: 7.6vw;
+    font-weight: 500;
+    color: #59588D;
+}
+
+
+
+.lottie a{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 5.7vh;
+    left: 15.5vw;
+    font-weight: 500;
+    color: #70B2FF;
+    text-decoration: none;
+}
+
+.lottie a:hover{
+    text-decoration: underline;
+}
+
+
+.lottie h3{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 7vh;
+    left: 4vw;
+    font-weight: 400;
+    color: #59588D;
+}
+
+.BTC{
+    position: absolute;
+    top: 32vh;
+    height: 13vh;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.BTC:hover{
+    background-color: rgb(29, 26, 65);
+    cursor: pointer;
+}
+
+
+.BTC h1{
+    position: absolute;
+    left: 4vw;
+    top: -1vh;
+    font-size: 1rem;
+    color: #8786AB;
+    font-weight: 500;
+}
+
+.BTC img{
+    position: absolute;
+    left: 1vw;
+    top: 0.5vh;
+    scale: 1.2;
+}
+
+.BTC p{
+    position: absolute;
+    top: -0.8vh;
+    left: 6vw;
+    font-size: 0.8rem;
+    color: #75749C;
+}
+
+.BTC h2{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 2vh;
+    left: 4vw;
+    font-weight: 400;
+    color: #59588D;
+}
+
+.BTC h4{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 4vh;
+    left: 7.3vw;
+    font-weight: 400;
+    color: #50E3C2;
+}
+
+.BTC h4 img{
+    position: absolute;
+    left: -1vw;
+}
+
+.BTC h5{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 3.5vh;
+    left: 7.6vw;
+    font-weight: 500;
+    color: #59588D;
+}
+
+.BTC img[src="./images/Graph Line (1).png"]{
+    position: absolute;
+    top: 4vh;
+    left: 4.2vw;
+}
+
+.BTC a{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 5.7vh;
+    left: 17vw;
+    font-weight: 500;
+    color: #70B2FF;
+    text-decoration: none;
+}
+
+.BTC a:hover{
+    text-decoration: underline;
+}
+
+.BTC h3{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 7vh;
+    left: 4vw;
+    font-weight: 400;
+    color: #59588D;
+}
+
+.Danny{
+    position: absolute;
+    top: 45vh;
+    height: 10vh;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.Danny:hover{
+    background-color: rgb(29, 26, 65);
+    cursor: pointer;
+}
+
+
+.Danny h1{
+    position: absolute;
+    left: 4vw;
+    top: -1vh;
+    font-size: 1rem;
+    color: #8786AB;
+    font-weight: 500;
+}
+
+.Danny img{
+    position: absolute;
+    left: 1vw;
+    top: 0.5vh;
+    scale: 1.2;
+}
+
+.Danny p{
+    position: absolute;
+    top: -0.8vh;
+    left: 10.5vw;
+    font-size: 0.8rem;
+    color: #75749C;
+}
+
+.Danny h2{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 2vh;
+    left: 4vw;
+    font-weight: 400;
+    color: #59588D;
+}
+
+.Danny h3{
+    position: absolute;
+    font-size: 0.8rem;
+    top: 4vh;
+    left: 4vw;
+    font-weight: 400;
+    color: #59588D;
+}
+
+.card2 .seeall{
+    position: absolute;
+    top: 53vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #70B2FF;
+    font-size: 1rem;
+}
+
+.card3{
+    position: absolute;
+    right: -5vw;
+    bottom: 3vh;
+    display: flex;
+    flex-flow: row;
+    height: 7vh;
+    width: 26vw;
+    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
+    backdrop-filter: blur(22.91519546508789px);
+    box-shadow: -30.86px 42.08px 84.15px 0px #17122B;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.card3 p{
+    position: absolute;
+    left: 4vw;
+    top: 0.7vh;
+    color:#7877B1;
+    
+}
+
+.card3 p:nth-child(1){
+    position: absolute;
+
+}
+
+.card3 p:nth-child(2){
+    position: absolute;
+    left: 16vw;
+    color: #E3507A;
+}
+
+.card3 p:nth-child(3){
+    position: absolute;
+    left: 20vw;
+
+}
+
+.card3 img{
+    position: absolute;
+    left: 1vw;
+    top: 1.9vh;
+    width: 1.7vw;
+    height: 1.7vw;
+}
+
+.bottom p:nth-child(1){
+    position: absolute;
+    left: 18vw;
+    bottom: -1vh;
+    color: #B1AFCD;
+    font-size: 0.9rem;
+}
+
+.bottom p:nth-child(2){
+    position: absolute;
+    left: 53vw;
+    bottom: -1vh;
+    color: #B1AFCD;
+    font-size: 0.9rem;
+    z-index: 1;
+}
+
+.bottom p:nth-child(3){
+    position: absolute;
+    left: 67vw;
+    bottom: -1vh;
+    color: #70B2FF;
+    font-size: 0.9rem;
+    z-index: 1;
+}
